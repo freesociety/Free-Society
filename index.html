@@ -1,0 +1,155 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <title>Home | Free Society</title>
+   <meta name="description" content="" />
+   <meta name="keywords" content="" />
+   <meta name="author" content="humans.txt">
+
+    <!-- Mobile Specific Meta -->
+   <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=0, initial-scale=1">
+   
+   <!-- Stylesheets -->
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+   <!-- Facebook Metadata /-->
+   <meta property="fb:page_id" content="" />
+   <meta property="og:image" content="" />
+   <meta property="og:description" content=""/>
+   <meta property="og:title" content=""/>
+
+   <!-- Google+ Metadata /-->
+   <meta itemprop="name" content="">
+   <meta itemprop="description" content="">
+   <meta itemprop="image" content="">
+
+   <!-- Favicon and Apple Icons -->
+   <link rel="shortcut icon" href="images/icons/favicon.ico">
+   <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png">
+   
+   <!-- Javascript -->
+   <script>
+      $(function() {
+        $( "#tabs" ).tabs();
+      });
+  </script>
+</head>
+
+   <body>
+      <div class="page-wrap">
+
+         <!-- START main-header -->
+         <header class="main-header">
+            <a href="index.html" class="main-heading">
+               <h1><span class="bold">Free</span> Society</h1>
+               <h5>Your freedom is yours</h5>
+            </a>
+
+            <ul class="user-login">
+               <li><a href="">Inbox 4</a></li>
+               <li><a href="">Johnathan Doe</a></li>
+               <li><a href="">logout</a></li>
+            </ul>
+
+            <nav class="main-nav">
+               <ul>
+                  <li class="current"><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="get_involved.html">Get Involved</a></li>
+                  <li><a href="forum.html">Forum</a></li>
+                  <li><a href="exchange.html">Exchange</a></li>
+                  <li><a href="societies.html">Societies</a></li>
+               </ul>
+            </nav>
+         </header>
+
+         <div class="main-search-area">
+            <div class="main-search-field">
+               <input type=search results=5 placeholder=Enter&#32;keywords name=s> <button>Search</button>
+
+               <ul>
+                  <li><input type="checkbox"><span class="checkbox"></span><label for="">All</label></li>
+                  <li><input type="checkbox"><span class="checkbox"></span><label for="">Societies</label></li>
+                  <li><input type="checkbox"><span class="checkbox"></span><label for="">Members</label></li>
+                  <li><input type="checkbox"><span class="checkbox"></span><label for="">Exchange</label></li>
+                  <li><input type="checkbox"><span class="checkbox"></span><label for="">Locations</label></li>
+                  <li><input type="checkbox"><span class="checkbox"></span><label for="">Forums</label></li>
+               </ul>
+            </div>
+            <aside class="search-aside">
+               <h4>Did you know?</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, perferendis non libero ducimus eos eum quam architecto.</p>
+            </aside>
+         </div>
+
+         <aside class="main-sidebar">
+            <div class="sidebar-block search-exchange">
+               <h4>Search exchange</h4>
+               <input type="search" results=5 name=s> <button>Search</button>
+
+               <h4>Location filter</h4>
+
+               <div class="select">
+                <select>
+                  <option value="Glasgow">Glasgow</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+               </div>
+
+               <h4>Delivery Details</h4>
+               <ul>
+                  <li><input type="checkbox"><span class="checkbox"></span><label for="">Collection</label></li>
+                  <li><input type="checkbox"><span class="checkbox"></span><label for="">Delivery</label></li>
+                  <li><input type="checkbox"><span class="checkbox"></span><label for="">Post Master</label></li>
+                  <li><input type="checkbox"><span class="checkbox"></span><label for="">Send by post</label></li>
+               </ul>
+
+               <h4>Item Condition</h4>
+
+               <div class="select">
+                <select>
+                  <option value="Used">Used</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+               </div>
+
+               <h4>Item Quality</h4>
+
+               <div class="select">
+                <select>
+                  <option value="Exceptional">Exceptional</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+               </div>
+               
+            </div>
+         </aside>
+
+         <div class="main" role="main">
+            
+         </div>
+
+      </div>
+        
+        <script src="js/main.js"></script>
+   </body>
+</html>
