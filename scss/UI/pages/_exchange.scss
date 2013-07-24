@@ -102,6 +102,7 @@ ul, li {
 .main-header {
 	@include span-columns(12);
 	padding-bottom: 45px;
+	position: relative;
 
 	.main-heading {
 		@extend %inline-block;
@@ -147,9 +148,9 @@ ul, li {
 
 	.main-nav {
 		@extend %inline-block;
-		float: right;
-		clear: right;
-		margin-top: 35px;
+		position: absolute;
+		top: 50%;
+		right: 0%;
 		font-size: em(14);
 
 		ul li {
