@@ -93,14 +93,6 @@ ul, li {
 	font-weight: 700;
 }
 
-
-
-body {
-	background: url(../images/header-bg.jpg) no-repeat, rgb(251,251,251);
-	color: $text-primary;
-	font-family: $basefontfamily--regular;
-}
-
 .page-wrap {
 	@include outer-container;
 	@include pad(20px);

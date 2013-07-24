@@ -342,7 +342,7 @@ dd {
   box-sizing: border-box; }
 
 body {
-  background: url(../images/header-bg.jpg) no-repeat, #fbfbfb;
+  background: url(../images/header-bg.jpg) repeat-x center top, #fbfbfb;
   color: #8b889a;
   font-family: proximanova-regular; }
 
@@ -2739,11 +2739,6 @@ ul, li {
 
 .bold {
   font-weight: 700; }
-
-body {
-  background: url(../images/header-bg.jpg) no-repeat, #fbfbfb;
-  color: #8b889a;
-  font-family: proximanova-regular; }
 
 .page-wrap {
   *zoom: 1;
