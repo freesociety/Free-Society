@@ -1,0 +1,26 @@
+.main-header {
+	@extend %col-12;
+	padding-bottom: 45px;
+	position: relative;
+}
+
+.main-heading {
+	@extend %ilb;
+	background: url(../images/free-society-logo.png) no-repeat;
+	padding-left: 78px;
+	margin-top: 40px;
+	height: 78px;
+
+	h1 {
+		font-size: em(48);
+		color: white;
+		line-height: 0.8em;
+		padding-top: 20px;
+		font-weight: 100;
+	}
+
+	h5 {
+		font-size: em(12);
+		color: #f2f2f2;
+	}
+}

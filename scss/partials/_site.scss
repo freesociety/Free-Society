@@ -1,3 +1,10 @@
+
+.page-wrap {
+	@include outer-container;
+	@include pad(20px);
+	padding-top: 0;
+}
+
 body {
 	background: url(../images/header-bg.jpg) repeat-x center top, rgb(251,251,251);
 	color: $text-primary;

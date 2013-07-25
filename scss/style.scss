@@ -9,8 +9,23 @@
 // Sass mixins
 @import "neat/neat";
 
+// Variables & placeholders
+@import "partials/furniture";
+
 // Site-wide styles
 @import "partials/site";
+
+// Header styles
+@import "partials/header";
+
+// Navigation styles
+@import "partials/navigation";
+
+// Main-search-area styles
+@import "partials/main-search-area";
+
+// Sidebar styles
+@import "partials/sidebar";
 
 // Webfonts
 @import "fonts";

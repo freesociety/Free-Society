@@ -1,0 +1,35 @@
+.main-nav {
+	@extend %ilb;
+	position: absolute;
+	top: 45%;
+	right: 0%;
+	font-size: em(14);
+
+	ul li {
+		@extend %ilb;
+		margin-left: 30px;
+		text-transform: uppercase;
+		padding-top: 20px;
+	}
+}
+
+.user-login {
+	@extend %ilb;
+	float: right;
+	margin-top: 20px;
+	font-size: em(12);
+
+	li {
+		@extend %ilb;
+		margin-left: 20px;
+		text-decoration: underline;
+
+		&:last-of-type {
+			text-decoration: none;
+			
+			a {
+				color: #9fd46d;
+			}
+		}
+	}
+}

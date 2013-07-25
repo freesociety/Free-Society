@@ -1,0 +1,43 @@
+.main-sidebar {
+	@extend %col-3;
+	@extend %light-gray-border;
+	background: white;
+	margin-top: 60px;
+	@include pad(50px 25px 50px 30px);
+
+	h4 {
+		margin: 20px 0;
+		font-size: em(14);
+		color: #3d3b49;
+	}
+
+	.select {
+		@extend %select;
+		height: 30px;
+		width: 80%;
+	}
+
+}
+
+.search-exchange {
+	button {
+		@extend %btn;
+		@extend %btn-blue;
+		height: 30px;
+		width: 70px;
+	}
+
+	ul {
+		@extend %ilb;
+
+		li {
+			@extend %ilb;
+		}
+	}
+
+	label {
+		font-size: em(12);
+		color: #8c8c8c;
+		text-shadow: 0 1px rgba(255,255,255,.96);
+	}
+}
