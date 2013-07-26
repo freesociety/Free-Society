@@ -7,17 +7,10 @@
 	@extend %col-8;
 
 	input[type="search"] {
-		width: 80%;
+		@extend %rounded-search;
+		width: 70%;
 		height: 44px;
 		padding-left: 10px;
-		-webkit-border-radius: 22px;
-		-moz-border-radius: 22px;
-		border-radius: 22px;
-		background-color: #fcfcfc;
-		-webkit-box-shadow: inset 0 1px 3px rgba(41,43,46,.05);
-		-moz-box-shadow: inset 0 1px 3px rgba(41,43,46,.05);
-		box-shadow: inset 0 1px 3px rgba(41,43,46,.05);
-		border: solid 1px #e1e1e1;
 	}
 
 	ul {
@@ -40,10 +33,12 @@
 		height: 35px;
 		width: 80px;
 		margin-left: 30px;
+	}
 
-		&:hover {
-			background: lighten(#7da457, 5%)
-		}
+	label {
+		color: $text-primary;
+		font-size: em(14);
+		margin-right: 10px;
 	}
 }
 
@@ -52,11 +47,20 @@
 
 	h4 {
 		font-size: em(20);
+		font-family: $basefontfamily--bold;
 		color: rgb(61,59,73);
-		margin-bottom: 10px;
+		padding-bottom: 10px;
+		padding-top: 15px;
+		margin-right: 5px;
+		@extend %ilb;
 	}
 
 	p {
 		font-size: em(15);
+	}
+
+	i {
+		font-size: em(20);
+		color: rgb(148,180,117);
 	}
 }

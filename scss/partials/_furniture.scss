@@ -42,6 +42,9 @@ a {
 .bold {
 	font-family: $basefontfamily--bold;
 }
+.semibold {
+	font-family: $basefontfamily--semibold;
+}
 
 
 // Placeholders to extend rather than repetitively include the column variables
@@ -71,10 +74,10 @@ a {
 
 %btn {
 	color: white;
+	font-family: $basefontfamily--bold;
 	font-size: em(12);
 	border: none;
 	text-shadow: 0 1px rgba(0,0,0,.32);
-	font-weight: 700;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
@@ -90,6 +93,10 @@ a {
 	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.19);
 	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.19);
 	box-shadow: 0 1px 1px rgba(0,0,0,.19);
+
+	&:hover {
+		background-color: lighten(#7da457, 3%);
+	}
 }
 
 %btn-blue {
@@ -97,6 +104,10 @@ a {
 	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.19), inset 0 -2px rgba(255,255,255,.35);
 	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.19), inset 0 -2px rgba(255,255,255,.35);
 	box-shadow: 0 1px 1px rgba(0,0,0,.19), inset 0 -2px rgba(255,255,255,.35);
+
+	&:hover {
+		background-color: lighten(#5770a4, 3%);
+	}
 }
 
 
@@ -150,6 +161,31 @@ a {
 	border-radius: 5px;
 }
 
+
+// Placeholder for rounded search
+
+%rounded-search {
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	border-radius: 22px;
+	background-color: #fcfcfc;
+	-webkit-box-shadow: inset 0 1px 3px rgba(41,43,46,.05);
+	-moz-box-shadow: inset 0 1px 3px rgba(41,43,46,.05);
+	box-shadow: inset 0 1px 3px rgba(41,43,46,.05);
+	border: solid 1px #e1e1e1;
+}
+
+
+// Placeholder for rectangular search
+
+%rectangular-search {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	background-color: #fff;
+	border: solid 1px #e3e3e3;
+}
+
 // Customize checkboxes as per this example:
 //  
 // http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-easy-css3-checkboxes-and-radio-buttons/
@@ -166,8 +202,6 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"] + label span {
-	color: $text-primary;
-	font-size: em(14);
 	width: 20px;
 	height: 20px;
 	display: inline-block;
@@ -179,4 +213,61 @@ input[type="checkbox"] + label span {
 
 input[type="checkbox"]:checked + label span {
     background:url(../images/checkbox-checked.png) no-repeat left top;
+}
+
+
+// Custom styles for jQuery UI tabs
+
+.ui-tabs {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.ui-tabs-nav {
+	padding: 0 !important;
+}
+
+.ui-tabs .ui-tabs-nav li {
+	list-style: none;
+	float: left;
+	position: relative;
+	margin: 1px .2em 0 0;
+	border-bottom-width: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+.ui-widget-header {
+	border: none !important;
+	background: none !important;
+	color: $text-primary !important;
+	font-family: $basefontfamily--regular !important;
+}
+
+.ui-widget-content {
+	border: none !important;
+	background: none !important;
+	color: $text-primary !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	border: solid 1px #f1f1f1 !important;
+	border-bottom: none !important;
+	background: none !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	border: solid 1px #f1f1f1 !important;
+	border-bottom: 1px solid white !important;
+	background: none !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+}
+
+#tabs li a {
+	color: $text-primary;
+	font-family: $basefontfamily--regular;
+	font-size: em(12);
 }

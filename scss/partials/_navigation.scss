@@ -4,6 +4,8 @@
 	top: 45%;
 	right: 0%;
 	font-size: em(14);
+	font-family: $altfontfamily;
+	font-weight: 700;
 
 	ul li {
 		@extend %ilb;
@@ -30,6 +32,22 @@
 			a {
 				color: #9fd46d;
 			}
+		}
+	}
+
+	i {
+		font-size: em(22);
+		color: white;
+		line-height: 0.5em;
+
+		&.icon-mail {
+			font-size: em(24);
+			position: relative;
+			top: 3px;
+		}
+
+		&.icon-user {
+			margin-left: 0;
 		}
 	}
 }

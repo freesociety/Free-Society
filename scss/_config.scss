@@ -1,12 +1,13 @@
 // Base colours of the pages and text
 $text-primary 						: rgb(139,136,154);
+$text-secondary 					: rgb(61,59,73);
 
 // Maximum width to maintain readable line lengths
 $max-width  						: 1440px;
 
 // Neat Responsive Grid Settings
 $column 							: golden-ratio(1em, 3);
-$gutter 							: golden-ratio(1em, 1);
+$gutter 							: golden-ratio(1em, -1);
 $grid-columns 						: 12;
 $border-box-sizing 					: true;
 
@@ -22,3 +23,5 @@ $basefontfamily--regular 			: proximanova-regular;
 $basefontfamily--semibold 			: proximanova-semibold;
 $basefontfamily--bold 				: proximanova-bold;
 $icons 								: entypo;
+
+$altfontfamily						: 'Open Sans', sans-serif;

@@ -18,6 +18,7 @@
    <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=0, initial-scale=1">
    
    <!-- Stylesheets -->
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
@@ -43,16 +44,18 @@
          <!-- START main-header -->
          <header class="main-header">
             <a href="index.html" class="main-heading">
-               <h1><span class="bold">Free</span> Society</h1>
+               <h1><span class="semibold">Free</span>Society</h1>
                <h5>Your freedom is yours</h5>
             </a>
 
+            <!-- START user-login menu -->
             <ul class="user-login">
-               <li><a href="">Inbox 4</a></li>
-               <li><a href="">Johnathan Doe</a></li>
+               <li><i class="icon-mail"></i><a href="">Inbox 4</a></li>
+               <li><i class="icon-user"></i><a href="">Johnathan Doe</a></li>
                <li><a href="">logout</a></li>
             </ul>
-
+            
+            <!-- START main navigation-->
             <nav class="main-nav">
                <ul>
                   <li class="current"><a href="index.html">Home</a></li>
@@ -64,7 +67,8 @@
                </ul>
             </nav>
          </header>
-
+         
+         <!-- START main-search-area section-->
          <div class="main-search-area">
             <div class="main-search-field">
                <input type=search results=5 placeholder=Enter&#32;keywords name=s> <button>Search</button>
@@ -78,13 +82,17 @@
                   <li><input type="checkbox"><label for=""><span></span>Forums</label></li>
                </ul>
             </div>
+
+            <!-- START main-search-aside article-->
             <aside class="search-aside">
-               <h4>Did you know?</h4>
+               <h4>Did you know?</h4><i class="icon-info-circled"></i>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, perferendis non libero ducimus eos eum quam architecto.</p>
             </aside>
          </div>
-
+         
+         <!-- START main-sidebar section -->
          <aside class="main-sidebar">
+            <!-- START search-exchange sidebar-block -->
             <div class="sidebar-block search-exchange">
                <h4>Search exchange</h4>
                <input type="search" results=5 name=s> <button>Search</button>
@@ -131,14 +139,793 @@
                </div>
                
             </div>
-         </aside>
-
-         <div class="exchange-main" role="main">
             
-         </div>
+            <!-- START category-list sidebar-block -->
+            <div class="sidebar-block category-widget">
+               <button>Add New Category</button>
 
+               <ul class="category-list">
+                  <li>
+                     <h4>Category One</h4>
+                     <ul class="subcategory-list">
+                        <li>
+                           <h5>Subcategory One</h5>
+                           <ul>
+                              <li>
+                                 <p>Item / Service one</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service two</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service three</p>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <h5>Subcategory Two</h5>
+                           <ul>
+                              <li>
+                                 <p>Item / Service one</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service two</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service three</p>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <h5>Subcategory Three</h5>
+                           <ul>
+                              <li>
+                                 <p>Item / Service one</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service two</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service three</p>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <h4>Category Two</h4>
+                     <ul class="subcategory-list">
+                        <li>
+                           <h5>Subcategory One</h5>
+                           <ul>
+                              <li>
+                                 <p>Item / Service one</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service two</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service three</p>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <h5>Subcategory Two</h5>
+                           <ul>
+                              <li>
+                                 <p>Item / Service one</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service two</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service three</p>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <h5>Subcategory Three</h5>
+                           <ul>
+                              <li>
+                                 <p>Item / Service one</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service two</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service three</p>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <h4>Category Three</h4>
+                     <ul class="subcategory-list">
+                        <li>
+                           <h5>Subcategory One</h5>
+                           <ul>
+                              <li>
+                                 <p>Item / Service one</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service two</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service three</p>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <h5>Subcategory Two</h5>
+                           <ul>
+                              <li>
+                                 <p>Item / Service one</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service two</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service three</p>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <h5>Subcategory Three</h5>
+                           <ul>
+                              <li>
+                                 <p>Item / Service one</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service two</p>
+                              </li>
+                              <li>
+                                 <p>Item / Service three</p>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+               <!-- END category-list -->
+            </div>
+         </aside>
+         <!-- END sidebar -->
+         
+         <!-- START main content -->
+         <div class="exchange-main" role="main">
+            <div id="tabs">
+               <ul>
+                  <li><a href="#tabs-1">Browse Exchange</a></li>
+                  <li><a href="#tabs-2">My Exchange</a></li>
+               </ul>
+               <div id="tabs-1" class="exchange-wrap">
+                  <div class="listings-item exchange-listings">
+                     <span class="listings-heading exchange-heading">
+                        <h2>Items / Services on offer</h2><button>New Listing</button>
+                     </span>
+                     <table border="0">
+                        <tr>
+                           <th>Distance</th>
+                           <th>Quantity</th>
+                           <th>Value</th>
+                           <th>Location</th>
+                           <th>Delivery</th>
+                           <th>Expires in</th>
+                           <th>Condition</th>
+                           <th>Quality</th>
+                           <th>Bids</th>
+                           <th>Member</th>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>   
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                     </table>
+
+                     <ul class="listings-btns exchange-bid">
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                     </ul>
+
+                  </div>
+                  <div class="listings-item looking-for-listings">
+                     <span class="listings-heading looking-for-heading">
+                        <h2>Looking For</h2><button>New Request</button>
+                     </span>
+                     <table border="0">
+                        <tr>
+                           <th>Distance</th>
+                           <th>Quantity</th>
+                           <th>Value</th>
+                           <th>Location</th>
+                           <th>Delivery</th>
+                           <th>Expires in</th>
+                           <th>Condition</th>
+                           <th>Quality</th>
+                           <th>Bids</th>
+                           <th>Member</th>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>   
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                     </table>
+
+                     <ul class="listings-btns offer-submit">
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                     </ul>
+
+                  </div>
+
+
+               </div>
+               <div id="tabs-2" class="exchange-wrap">
+                  <div class="listings-item exchange-listings">
+                     <span class="listings-heading exchange-heading">
+                        <h2>Items / Services on offer</h2><button>New Listing</button>
+                     </span>
+                     <table border="0">
+                        <tr>
+                           <th>Distance</th>
+                           <th>Quantity</th>
+                           <th>Value</th>
+                           <th>Location</th>
+                           <th>Delivery</th>
+                           <th>Expires in</th>
+                           <th>Condition</th>
+                           <th>Quality</th>
+                           <th>Bids</th>
+                           <th>Member</th>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>   
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                     </table>
+
+                     <ul class="listings-btns exchange-bid">
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                        <li><button>Bid</button></li>
+                     </ul>
+
+                  </div>
+                  <div class="listings-item looking-for-listings">
+                     <span class="listings-heading looking-for-heading">
+                        <h2>Looking For</h2><button>New Request</button>
+                     </span>
+                     <table border="0">
+                        <tr>
+                           <th>Distance</th>
+                           <th>Quantity</th>
+                           <th>Value</th>
+                           <th>Location</th>
+                           <th>Delivery</th>
+                           <th>Expires in</th>
+                           <th>Condition</th>
+                           <th>Quality</th>
+                           <th>Bids</th>
+                           <th>Member</th>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>   
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                        <tr>
+                           <td>2 hops</td>
+                           <td>3</td>
+                           <td>500 CP</td>
+                           <td>Glasgow</td>
+                           <td>CDPS</td>
+                           <td>14d 10h 8m</td>
+                           <td>Used</td>
+                           <td>Standard</td>
+                           <td>2</td>
+                           <td>John Doe</td>
+                        </tr>
+                     </table>
+
+                     <ul class="listings-btns offer-submit">
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                        <li><button>Offer</button></li>
+                     </ul>
+
+                  </div>
+
+               </div>
+
+            </div>
+
+         </div>
+         <!-- END main content -->
       </div>
-        
+      <!-- END page-wrap  -->
+      
         <script src="js/main.js"></script>
    </body>
 </html>
