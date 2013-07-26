@@ -18,25 +18,28 @@
 }
 
 .listings-heading {
+	padding-bottom: 30px;
+	padding-right: 120px;
+	display: block;
+	position: relative;
+
 	h2 {
 		font-family: $basefontfamily--bold;
 		font-size: em(20);
 		color: $text-secondary;
 		@extend %ilb;
-		padding-bottom: 30px;
-		position: relative;
 	}
 
 	button {
 		@extend %btn;
 		@extend %btn-blue;
+		@extend %ilb;
 		width: 140px;
 		height: 39px;
 		font-family: $basefontfamily--bold !important;
 		font-size: em(12) !important;
-		position: absolute;
-		right: 120px;
-		top: 20px;
+		float: right;
+		margin-top: -15px;
 	}
 }
 
@@ -99,8 +102,4 @@
 .looking-for-listings {
 	padding-top: 50px;
 	padding-bottom: 150px;
-
-	button {
-		top: 30px;
-	}
 }
