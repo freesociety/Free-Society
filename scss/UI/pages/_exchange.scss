@@ -11,7 +11,7 @@
 }
 
 .exchange-wrap {
-	border: solid 1px #f1f1f1 !important;
+	border: solid 1px #f1f1f1;
 	-webkit-box-shadow: 0 0 5px rgba(206,205,215,.05), inset 0 -11px 1px rgba(0,0,0,.01);
 	-moz-box-shadow: 0 0 5px rgba(206,205,215,.05), inset 0 -11px 1px rgba(0,0,0,.01);
 	box-shadow: 0 0 5px rgba(206,205,215,.05), inset 0 -11px 1px rgba(0,0,0,.01);
@@ -36,8 +36,6 @@
 		@extend %ilb;
 		width: 140px;
 		height: 39px;
-		font-family: $basefontfamily--bold !important;
-		font-size: em(12) !important;
 		float: right;
 		margin-top: -15px;
 	}
@@ -85,8 +83,6 @@
 	button {
 		@extend %btn;
 		@extend %btn-blue;
-		font-family: $basefontfamily--bold !important;
-		font-size: em(12) !important;
 		width: 80px;
 		height: 30px;
 		margin-top: 7.5px;
