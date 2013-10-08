@@ -1,0 +1,27 @@
+a {
+text-decoration : none;
+color : $linkcolor;
+
+&:visited {
+color : $linkcolorvisited; }
+
+&:hover {
+color : $linkcolorhover; }
+
+&:focus {
+color : $linkcolorfocus; }
+
+&:hover,
+&:active {
+outline : 0; }
+}
+
+::-moz-selection {
+background-color : lighten($primarycolor, 65%);
+color : $primarycolor;
+text-shadow : none; }
+
+::selection {
+background-color : lighten($primarycolor, 65%);
+color : $primarycolor;
+text-shadow : none; }

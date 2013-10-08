@@ -1,0 +1,100 @@
+// BASICS ================================================
+
+// Pages and text colours
+
+$bodycolor 						: rgb(251, 251, 251);
+$textcolor 						: rgb(139, 136, 154);
+
+
+
+
+
+// Next are two variables that will be used throughout your design;
+// $gutterwidth for horizontal spacing and $baselineheight for vertical rhythm
+
+$gutterwidth 					: 24px;
+$baselineheight 				: 1.5em;
+
+
+// Does your design needs a maximum width to maintain readable line lengths? 
+
+$max-width						: 90em;
+
+
+
+
+
+// TYPOGRAPHY ================================================
+
+
+// Now define your design’s typography by setting a base typeface and size
+$basefontfamily--regular 		: helios-regular;
+$basefontfamily--light 			: helios-light;
+$basefontfamily--thin	 		: helios-thin;
+$basefontfamily--bold 			: helios-bold;
+$icons 							: entypo;
+$basefontsize 					: 13;
+
+// Your headings may inherit the base typeface, or you may set a different font stack
+$baseheadingfont 				: inherit;
+
+// Choose between normal, bold or set a font-weight number (eg: 700) for your headings
+$baseheadingfontweight 			: bold;
+
+// Your headings may inherit the $textcolor, or you may set a different colour
+$baseheadingfontcolor 			: inherit;
+
+// Often you’ll use an alternative typeface (eg: for buttons, form inputs and tables)
+$altfontfamily 					: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$altlineheight 					: 1.35em;
+
+// You can choose a special typeface just for ampersands too
+$ampfontfamily 					: local('Georgia'), local('Garamond'), local('Palatino'), local('Book Antiqua');
+
+//  And if your site’s for geeks, you’ll need a font for code too
+$codefont 						: Monaco, Courier New, monospace;
+
+
+
+
+
+// COLOUR ================================================
+
+
+// Define your design’s palette by choosing three main colours
+$primarycolor 					: rgb(146,154,0);
+$secondarycolor 				: rgb(164,50,21);
+$tertiarycolor 					: rgb(41,47,54);
+
+// Now set a neutral colour for borders etc.
+$neutralcolor 					: rgb(71,63,63);
+$midneutralcolor 				: darken($neutralcolor,25%);
+$darkneutralcolor 				: darken($neutralcolor,50%);
+$lightneutralcolor 				: lighten($neutralcolor,25%);
+$lighterneutralcolor 			: lighten($neutralcolor,50%);
+$lightestneutralcolor 			: lighten($neutralcolor,70%);
+
+// Sometimes you may want $black and $white to be ‘almost black’ and ’off-white’
+$black 							: rgb(0,0,0);
+$white 							: rgb(255,255,255);
+
+// Choose a colour for your hyperlinks. Often this will be the $primarycolor 
+$linkcolor 		    			: $primarycolor;
+$linkcolorhover 				: darken($linkcolor, 10);
+$linkcolorvisited   			: darken($linkcolorhover, 10);
+$linkcolorfocus 				: darken($linkcolorvisited, 10);
+
+// Now define another set of colours. These will be used to style alerts and buttons
+$alertcolor 					: rgb(218,79,73);
+$errorcolor 					: rgb(176,20,0);
+$infocolor 						: rgb(216,220,162);
+$inversecolor 					: rgb(65,65,65);
+$successcolor 					: rgb(188,212,222);
+$warningcolor 					: $errorcolor;
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+// Typography =============================================
+
+@mixin font-size($font-size: 16){
+font-size : #{$font-size}px;
+font-size : #{$font-size / 10}rem; }
+
+@mixin css-hyphens($val:auto) {
+-webkit-hyphens : $val;
+-moz-hyphens : $val;
+-ms-hyphens : $val;
+-o-hyphens : $val;
+hyphens : $val; }
+
+// chromeframe
+
+@mixin chromeframe {
+margin : .2em 0;
+background : $lightneutralcolor;
+color : $neutralcolor;
+padding : .2em 0; }
+
+// @include placeholder(VALUE) (color)
+
+@mixin placeholder($color : $neutralcolor) {
+
+&:-moz-placeholder {
+@include font-size(14);
+color : $color; }
+
+&::-moz-placeholder {
+@include font-size(14);
+color : $color; }
+
+&:-ms-input-placeholder {
+@include font-size(14);
+color : $color; }
+
+&::-webkit-input-placeholder {
+@include font-size(14);
+color : $color; }
+}
+
+// @include overflow
+
+@mixin text-overflow {
+overflow : hidden;
+text-overflow : ellipsis;
+white-space : nowrap; }
+
+// @include zero
+
+@mixin zero {
+margin : 0;
+padding : 0; }
+
+// @include media-query-bp(UNIT, QUERY PART LEFT, QUERY PART RIGHT, TARGET)
+
+@mixin media-query-bp($unit, $query1: min, $query2: width, $target: "") {
+	$mqtarget: "";
+	// Check if media queries are supported
+	@if $media-queries-supported == true {
+		@if $target != "" {
+			@media #{$target} and (#{$query1}-#{$query2}: #{$unit}) {
+				@content;
+			}
+		}
+		@else {
+			@media (#{$query1}-#{$query2}: #{$unit}) {
+				@content;
+			}
+		}
+	}
+	@else {
+		#{$no-mq-classname} & {
+			@content;
+		}
+	}
+}
