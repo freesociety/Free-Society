@@ -1,11 +1,10 @@
 # [Free Society](https://freesociety.org.uk)
 
-      This site is under construction and may sometimes be unavailable. For a description of what this project is about please see below. We would love to hear your comments as soon as possible.
+      The website is under construction and may sometimes be unavailable. For a description of what this project is about please see below. We would love to hear your comments as soon as possible.
 
 ## A free and open community based exchange of items, services and ideas
 
 ### Exchange
-
     Offer and get items (e.g. fridges, books) and services (e.g. computer repair or cleaning) without the use of money.
 
 ### Forum
