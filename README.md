@@ -1,36 +1,36 @@
-# [Free Society](http://freesociety.org.uk)
+# [Free Society](https://freesociety.org.uk)
 
       This site is under construction and may sometimes be unavailable. For a description of what this project is about please see below. We would love to hear your comments as soon as possible.
 
 ## A free and open community based exchange of items, services and ideas
 
-### [Exchange](#Exchange)
+### Exchange
 
     Offer and get items (e.g. fridges, books) and services (e.g. computer repair or cleaning) without the use of money.
 
-### [Forum](#Forum)
+### Forum
 
     Talk about what you want only with who you want. Visibility of posts and the rules of the forum and exchange are determined by vote.
 
-### [Societies](#Societies)
+### Societies
 
     Find societies and members and the related forums and information they have chosen to make available to you.
 
-### [Privacy (and Freedom)](#Privacy)
+### Privacy (and Freedom)
 
     You choose who views your posts. Other than this, no information about you of any kind is readable by anyone (including anyone running servers).
 
-### [Decentralisation](#Decent)
+### Decentralisation
 
     Decentralised administration (actions taken by vote). Decentralised database running on decentralised servers.
 
-### [Usability](#Usab)
+### Usability
 
     Usable by anyone with access to a web browser (Firefox, Chrome etc.)
 
-### [No advertising or fees](#Ad)
+### No advertising or fees
 
-### [Code, Development & Copyright](#Code)
+### Code, Development & Copyright
 
     Code released under the GPL. Development ongoing - help out if you can.
 
