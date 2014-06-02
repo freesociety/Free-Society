@@ -1,7 +1,5 @@
 # [Free Society](https://freesociety.org.uk)
 
-The website is under construction and may sometimes be unavailable. For a description of what this project is about please see below. We would love to hear your comments as soon as possible.
-
 ## A free and open community based exchange of items, services and ideas
 
 ### Exchange
@@ -85,7 +83,7 @@ There will not be any adverts since we don't like them and believe they can be a
 Some parts of the (frontend) code are on github. This is mainly useful for getting an idea of the graphical design and look, although we will likely use github more in the future, particularly since we would soon like more developers to get involved. The code is released under the GPL. Any of the content or ideas in this description page may be used in your projects as long as you make clear which modifications (if any) have been made, credit is given and no money is gained from this use (even indirectly e.g. through adverts).
 
 *   Source: [https://github.com/freesociety/FreeSociety](https://github.com/freesociety/FreeSociety)
-*   Homepage: [ http://freesociety.org.uk](https://freesociety.org.uk) (Currently running from a development computer so may not always be available)
+*   Homepage: [ https://freesociety.org.uk](https://freesociety.org.uk) (Currently running from a development computer so may not always be available)
 *   Clone the git repo - `git clone https://github.com/freesociety/FreeSociety.git`
 
 ### Current and Past Contributors
