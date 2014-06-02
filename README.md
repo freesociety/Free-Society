@@ -5,7 +5,8 @@
 ## A free and open community based exchange of items, services and ideas
 
 ### Exchange
-    Offer and get items (e.g. fridges, books) and services (e.g. computer repair or cleaning) without the use of money.
+
+Offer and get items (e.g. fridges, books) and services (e.g. computer repair or cleaning) without the use of money.
 
 ### Forum
 
