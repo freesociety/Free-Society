@@ -2,37 +2,37 @@
 
 ### A free and open community based exchange of items, services and ideas
 
-### Exchange
+#### Exchange
 
 Offer and get items (e.g. fridges, books) and services (e.g. computer repair or cleaning) without the use of money.
 
-### Forum
+#### Forum
 
 Talk about what you want only with who you want. Visibility of posts and the rules of the forum and exchange are determined by vote.
 
-### Societies
+#### Societies
 
 Find societies and members and the related forums and information they have chosen to make available to you.
 
-### Privacy (and Freedom)
+#### Privacy (and Freedom)
 
 You choose who views your posts. Other than this, no information about you of any kind is readable by anyone (including anyone running servers).
 
-### Decentralisation
+#### Decentralisation
 
 Decentralised administration (actions taken by vote). Decentralised database running on decentralised servers.
 
-### Usability
+#### Usability
 
 Usable by anyone with access to a web browser (Firefox, Chrome etc.)
 
-### No advertising or fees
+#### No advertising or fees
 
-### Code, Development & Copyright
+#### Code, Development & Copyright
 
 Code released under the GPL. Development ongoing - help out if you can.
 
-### Exchange
+#### Exchange
 
 The structure of the exchange, as well as a karma-like point system, is used to encourage exchange within communities and additionally make it easier for members and societies who give more to in turn receive more. Points are created/destroyed (in a decentralised manner) so that as far as possible
 
