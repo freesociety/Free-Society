@@ -32,7 +32,7 @@ Usable by anyone with access to a web browser (Firefox, Chrome etc.)
 
 Code released under the GPL. Development ongoing - help out if you can.
 
-#### Exchange
+### Exchange
 
 The structure of the exchange, as well as a karma-like point system, is used to encourage exchange within communities and additionally make it easier for members and societies who give more to in turn receive more. Points are created/destroyed (in a decentralised manner) so that as far as possible
 
