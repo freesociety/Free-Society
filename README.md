@@ -42,7 +42,7 @@ The structure of the exchange, as well as a karma-like point system, is used to 
 *   long term distribution of points maximises the number of useful exchanges
 *   short term changes in overall activity are automatically compensated for i.e. smoothed out
 
-A separate rating system helps to ensure the quality of goods and services. User-generated categories flexibily standardise items and services which aims to increase the efficiency of finding, comparing and producing these while limiting the impact of false signals (e.g. flashy advertising for a bad product).
+A separate rating system helps to ensure the quality of goods and services. User-generated categories flexibly standardise items and services which aims to increase the efficiency of finding, comparing and producing these while limiting the impact of false signals (e.g. flashy advertising for a bad product).
 
 There is the structure to develop a distributed, pseudonymous postal system which will help to solve the last mile problem by having people in each community (chosen by the community) who can accept items for others. We expect more traditional methods to be used at first however since any postal system depends on a large number of people using it to be efficient.
 
@@ -80,7 +80,7 @@ There will not be any adverts since we don't like them and believe they can be a
 
 ### Code, Development & Copyright
 
-Some parts of the (frontend) code are on github. This is mainly useful for getting an idea of the graphical design and look, although we will likely use github more in the future, particularly since we would soon like more developers to get involved. The code is released under the GPL. Any of the content or ideas in this description page may be used in your projects as long as you make clear which modifications (if any) have been made, credit is given and no money is gained from this use (even indirectly e.g. through adverts).
+Some parts of the (front-end) code are on github. This is mainly useful for getting an idea of the graphical design and look, although we will likely use github more in the future, particularly since we would soon like more developers to get involved. The code is released under the GPL. Any of the content or ideas in this description page may be used in your projects as long as you make clear which modifications (if any) have been made, credit is given and no money is gained from this use (even indirectly e.g. through adverts).
 
 *   Source: [https://github.com/freesociety/FreeSociety](https://github.com/freesociety/FreeSociety)
 *   Homepage: [ https://freesociety.org.uk](https://freesociety.org.uk) (Currently running from a development computer so may not always be available)
@@ -89,6 +89,6 @@ Some parts of the (frontend) code are on github. This is mainly useful for getti
 ### Current and Past Contributors
 
 *   David Grant - Idea, research and development of design, this page, backend design, overall look
-*   Jake McIlvenna - Graphical design & look, html and css
-*   Logo - Name tbc.
-*   Additional html/css - Name tbc.
+*   Jake McIlvenna - Front-End Development, Graphical Design & look.
+*   Logo - Sofie Van Assche.
+*   Additional HTML/CSS - Ravi Matthieu.
