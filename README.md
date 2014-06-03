@@ -1,6 +1,6 @@
 # [Free Society](https://freesociety.org.uk)
 
-## A free and open community based exchange of items, services and ideas
+### A free and open community based exchange of items, services and ideas
 
 ### Exchange
 
