@@ -86,9 +86,4 @@ Some parts of the (front-end) code are on github. This is mainly useful for gett
 *   Homepage: [ https://freesociety.org.uk](https://freesociety.org.uk) (Currently running from a development computer so may not always be available)
 *   Clone the git repo - `git clone https://github.com/freesociety/FreeSociety.git`
 
-### Current and Past Contributors
 
-*   David Grant - Idea, research and development of design, this page, backend design, overall look
-*   Jake McIlvenna - Front-End Development, Graphical Design & look.
-*   Logo - Sofie Van Assche.
-*   Additional HTML/CSS - Ravi Matthieu.
